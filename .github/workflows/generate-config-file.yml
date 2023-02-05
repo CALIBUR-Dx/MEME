@@ -21,10 +21,12 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - uses: actions/checkout@v3
         with:
-          ref: ${{ github.ref }}      
+          ref: ${{ github.ref }}   
+      - name: Change wrapper permissions
+        run: chmod +x ./shell/computed.sh   
       - name: build config
         run: |
-          ../shell/computed.sh
+          ./shell/computed.sh
           cat static/scripts/config.js
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
