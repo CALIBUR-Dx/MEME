@@ -21,7 +21,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - uses: actions/checkout@v3
         with:
-          ref: ${{ github.ref }}      - name: build config
+          ref: ${{ github.ref }}      
+      - name: build config
         run: |
           ./shell/computed.sh
           cat static/scripts/config.js
