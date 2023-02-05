@@ -16,12 +16,12 @@ jobs:
     name: Generate config file
     runs-on: ubuntu-latest   
     steps:
+      - uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
       - uses: actions/checkout@v3
-      - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-      - name: build config
+        with:
+          ref: ${{ github.ref }}      - name: build config
         run: |
           ./shell/computed.sh
           cat static/scripts/config.js
