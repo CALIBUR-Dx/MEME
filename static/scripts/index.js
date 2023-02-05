@@ -2,7 +2,8 @@ import config from './config.js'
 
 const development =
     location.host.search(/.+\.github\.io/) === -1 &&
-    location.host.search(/nonememe\.icu/) === -1
+    location.host.search(/calibur\.cfd/) === -1 &&
+    location.host.search(/.+\.angforever\.top/) === -1
 const domParser = new DOMParser()
 /** @type {string[]} */
 let items = []
