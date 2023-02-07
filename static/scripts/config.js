@@ -13,15 +13,18 @@ export default {
     "meme/对实况主导.jpg",
     "meme/我也要玩!.jpg",
     "meme/我喜欢吃屎.jpg",
+    "meme/新时代玩法.png",
     "meme/最速答错传送.jpg",
     "meme/有你有我也有他.jpg",
     "meme/王座享有者.jpg",
     "meme/白鼠学习我apex,下一秒他也来了.jpg",
+    "meme/看不懂.png",
     "meme/真正有意义的.jpg",
     "meme/瞪你.jpg",
     "meme/超级助理.png",
     "meme/超级棍.png",
     "meme/过来坐.gif",
-    "meme/这位群友不要在地上睡觉.jpg"
+    "meme/这位群友不要在地上睡觉.jpg",
+    "meme/骗.png"
   ]
 }
