@@ -19,6 +19,7 @@ jobs:
         with:
           ref: ${{ github.ref }}
       - name: remove previous build
+      - chmod -R 777 file
         run: |
           rm ./text/*
       - name: generate directory
