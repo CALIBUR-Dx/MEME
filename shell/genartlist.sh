@@ -16,6 +16,8 @@ titleerr() {
 
 echo "Generating article directory..."
 
+
+
 cat > "text/index.html" <<EOF
 <!DOCTYPE html>
 <html lang="zh">

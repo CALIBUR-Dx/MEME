@@ -19,8 +19,8 @@ jobs:
         with:
           ref: ${{ github.ref }}
       - name: remove previous build
-      - chmod -R 777 file
-        run: |
+      run: |
+          chmod -R 777 ./shell/art2text.sh
           rm ./text/*
       - name: generate directory
         run: |
