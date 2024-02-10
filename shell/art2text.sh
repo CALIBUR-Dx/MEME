@@ -22,7 +22,7 @@ do
     <meta name="description" content="咖喱窝群友们的日常">
     <link rel="icon" href="/static/favicon.ico">
     <title>群友的梗 | 咖喱窝群友们的日常</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1.5.0/css/pico.min.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.net/picocss/1.5.0/pico.min.css">
     <link rel="stylesheet" href="/static/style.css">
     <style>
         #view {
@@ -44,11 +44,11 @@ EOF
 
         <footer id="footer">
             <p>· 咖喱窝群友们的日常 · 欢迎品鉴 ·</p>
-            <p><a href="https://github.com/ANGJustinl/CALIBUR.CFD">看完了吗？感兴趣的话， 可以来 GitHub 投稿哦！</a></p>
+            <p><a href="https://github.dev/CALIBUR-Dx/MEME">看完了吗？感兴趣的话， 可以来 GitHub 投稿哦！</a></p>
         </footer>
     </main>
 </body>
-<script src="https://cdn.jsdelivr.net/gh/MarketingPipeline/Markdown-Tag/markdown-tag.js"></script> 
+<script src="https://gcore.jsdelivr.net/gh/MarketingPipeline/Markdown-Tag/markdown-tag.js"></script> 
 
 </html>
 EOF
