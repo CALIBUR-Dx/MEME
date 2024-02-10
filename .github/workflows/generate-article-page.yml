@@ -27,6 +27,8 @@ jobs:
       - name: generate directory
         run: |
           ./shell/genartlist.sh
+      - name: Change wrapper permissions
+        run: chmod +x ./shell/art2text.sh
       - name: build article
         run: |
           ./shell/art2text.sh
