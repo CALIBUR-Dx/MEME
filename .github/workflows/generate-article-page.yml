@@ -22,6 +22,8 @@ jobs:
       - name: remove previous build
         run: |
           rm ./text/*
+      - name: Change wrapper permissions
+        run: chmod +x ./shell/genartlist.sh
       - name: generate directory
         run: |
           ./shell/genartlist.sh
