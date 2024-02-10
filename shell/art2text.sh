@@ -33,7 +33,7 @@ do
 
 <body>
     <main class="container">
-        <h1>咖喱窝群友们的日常 | <a href="/text">文字梗</a></h1>
+        <h1>咖喱窝群友们的日常 | <a href="https://calibur-dx.github.io/MEME/text">图片梗</a></h1>
         <article id="view">
             <github-md>
 EOF
@@ -44,7 +44,7 @@ EOF
 
         <footer id="footer">
             <p>· 咖喱窝群友们的日常 · 欢迎品鉴 ·</p>
-            <p><a href="https://github.dev/CALIBUR-Dx/MEME">看完了吗？感兴趣的话， 可以来 GitHub 投稿哦！</a></p>
+            <p><a href="https://github.com/CALIBUR-Dx/MEME">看完了吗？感兴趣的话， 可以来 GitHub 投稿哦！</a></p>
         </footer>
     </main>
 </body>
