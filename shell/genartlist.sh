@@ -40,7 +40,7 @@ cat > "text/index.html" <<EOF
 
 <body>
     <main class="container">
-        <h1>咖喱窝群友 梗 | <a href="/">图片梗</a></h1>
+        <h1>咖喱窝群友 梗 | <a href="https://calibur-dx.github.io/MEME/">图片梗</a></h1>
         <h5 id="description"></h5>
         <article id="view">
             <github-md>
